@@ -2,4 +2,4 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
 SETUVAR _fisher_upgraded_to_4_4:\x1d
-SETUVAR fish_user_paths:/home/aimix/\x2elocal/share/pnpm\x1e/home/aimix/software/flutter/bin
+SETUVAR fish_user_paths:/home/aimix/\x2enpm\x2dglobal/bin\x1e/home/aimix/\x2elocal/share/pnpm\x1e/home/aimix/software/flutter/bin

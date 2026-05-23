@@ -6,4 +6,5 @@
 cursor {
     xcursor-theme "Breeze_Light"
     xcursor-size 18
+    hide-after-inactive-ms 15000
 }

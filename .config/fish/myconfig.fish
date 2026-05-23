@@ -6,6 +6,11 @@ if status is-interactive
     function catn
         bat -Ppn $argv
     end
+
+    alias l="lazygit"
+
+    alias py=python
+    alias ipy=ipython
 end
 
 set -gx PNPM_HOME ~/.local/share/pnpm
