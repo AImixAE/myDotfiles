@@ -19,6 +19,13 @@ end
 set -gx PNPM_HOME ~/.local/share/pnpm
 set -gx CHROME_EXECUTABLE google-chrome-stable
 
+set -gx EDITOR nvim
+set -gx LANG zh_CN.UTF-8
+
+function svim
+    sudoedit $argv
+end
+
 function md
     mkdir -p $argv
 end

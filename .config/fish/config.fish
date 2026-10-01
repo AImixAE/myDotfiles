@@ -19,11 +19,11 @@ function cat
     command bat $argv
 end
 function ls
-    command eza -s type --icons $argv
+    command eza -s type --icons always $argv
 end
 
 function lt
-    command eza -s type --icons --tree $argv
+    command eza -s type --icons always --tree $argv
 end
 # grub
 abbr grub 'LANGUAGE=en_US.UTF-8 LANG=en_US.UTF-8 sudo grub-mkconfig -o /boot/grub/grub.cfg'
